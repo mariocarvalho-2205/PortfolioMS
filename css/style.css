@@ -381,3 +381,110 @@ footer {
 .change .bar3 {
     transform: translate(0, -0.6rem) rotate(45deg);
 }
+
+/* Medias Querys */
+
+/* Extra Small (xs): Smarthphone (portrait) */
+@media (min-width: 0px) {
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-responsive {
+        display: block;
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 6rem 2.5rem;
+    }
+
+    .home, .about {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .home-img, .about-img {
+        width: 80%;
+        max-width: 88%;
+    }
+
+    .home-content, .about-content {
+        width: 100%;
+    }
+
+    .home-content div {
+        text-align: center;
+    }
+
+    .home-content h1, .about-content h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+
+    /* teste */
+    header {
+        background-color: var(--color-02);
+    }
+}
+/* Small (sm): Smarthphone (landscape) */
+@media (min-width: 576px) {
+    .home-img, .about-img {
+        width: 65%;
+        max-width: 65%;
+    }
+
+    .services-box {
+        width: 70%;
+    }
+
+    /* teste */
+    header {
+        background-color: var(--color-03);
+    }
+}
+
+/* Medium (m): Tablet */
+@media (min-width: 768px) {
+    
+
+    /* teste */
+    header {
+        background-color: var(--color-05);
+    }
+}
+
+/* Large (lg): Notebook */
+@media (min-width: 992px) {
+    
+
+    /* teste */
+    header {
+        background-color: var(--color-04);
+    }
+}
+
+/* Extra Large (xl): Desktop */
+@media (min-width: 1200px) {
+    
+
+    /* teste */
+    header {
+        background-color: var(--color-06);
+    }
+}
